@@ -160,3 +160,34 @@ footer p {
     padding: 0 8px;
     color: white;
 }
+/*-------------------------------------------------------------------------------------------
+sector portafolio----------------------------------------------------------------------------
+------------------------------PORTAFOLIO BARRA- ESTILOS ----------------------------*/
+.portafolioBarra {
+     /*class*/ 
+        color: #3f3f3f;
+    }
+
+    .portafolioBarra {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        padding-right: 100%; 
+    }
+
+/* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
+@media (max-width: 768px) {
+    .portafolioBarra {
+        width: 70%;
+    }   
+   
+    .portafolioBarra {
+    width: 100%;
+    text-align: center;
+}
+}
+/*----------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------*/
+
